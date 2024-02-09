@@ -2,7 +2,11 @@ import telebot
 from telebot import types
 
 # токен моего бота
+<<<<<<< HEAD
 bot = telebot.TeleBot(' "ВВЕДІТЬ  ВАШ  ТОКЕН ')
+=======
+bot = telebot.TeleBot('ВВЕДІТЬ ВАШ ТОКЕН')
+>>>>>>> fd01f48 (add file)
 
 # при старте меню
 @bot.message_handler(commands=["start"])
@@ -26,11 +30,19 @@ def catalogKBoard(message):
         bot.send_message(message.chat.id, "Вибиріть категорію", reply_markup=catalogKBoard)
 
 # умова вибору кнопки Інформація
+<<<<<<< HEAD
     elif (message.text == "Інформація"):
         markup = types.InlineKeyboardMarkup()
         bot.send_message(message.chat.id, "Тут ваша інформація вся", reply_markup=markup)
 
 # умова вибору кнопки Кнопка 1
+=======
+    git elif (message.text == "Інформація"):
+        markup = types.InlineKeyboardMarkup()
+        bot.send_message(message.chat.id, "Тут ваша інформація вся", reply_markup=markup)
+
+# умова вибору кнопки Steam
+>>>>>>> fd01f48 (add file)
     elif (message.text == "Кнопка 1"):
         markup = types.InlineKeyboardMarkup()
         btn_my_site = types.InlineKeyboardButton(text='Силка Кнопка 2', url='https://aparat.ua')
@@ -39,12 +51,20 @@ def catalogKBoard(message):
         markup.add(btn_my_site2)
         bot.send_message(message.chat.id, "Натистни на кнопку та перейди на наш сайт.", reply_markup=markup)
 
+<<<<<<< HEAD
 # умова вибору кнопки Кнопка 2 без ссилок
+=======
+# умова вибору кнопки UPlay без ссилок
+>>>>>>> fd01f48 (add file)
     elif (message.text == "Кнопка 2"):
         markup = types.InlineKeyboardMarkup()
         bot.send_message(message.chat.id, "Ви отримали простий текст без силки", reply_markup=markup)
 
+<<<<<<< HEAD
 # умова вибору кнопки Кнопка 3
+=======
+# умова вибору кнопки Origin
+>>>>>>> fd01f48 (add file)
     elif (message.text == "Кнопка 3"):
         markup = types.InlineKeyboardMarkup()
         btn_my_site = types.InlineKeyboardButton(text='Силка Кнопка 3', url='https://aparat.ua')
@@ -65,4 +85,8 @@ def catalogKBoard(message):
         bot.send_message(message.chat.id, text="На таку комманду я не запрограммован..")
 
 
+<<<<<<< HEAD
 bot.polling(none_stop=True)
+=======
+bot.polling(none_stop=True)
+>>>>>>> fd01f48 (add file)
