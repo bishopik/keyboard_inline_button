@@ -30,7 +30,7 @@ def catalogKBoard(message):
         markup = types.InlineKeyboardMarkup()
         bot.send_message(message.chat.id, "Тут ваша інформація вся", reply_markup=markup)
 
-# умова вибору кнопки Steam
+# умова вибору кнопки Кнопка 1
     elif (message.text == "Кнопка 1"):
         markup = types.InlineKeyboardMarkup()
         btn_my_site = types.InlineKeyboardButton(text='Силка Кнопка 2', url='https://aparat.ua')
@@ -39,12 +39,12 @@ def catalogKBoard(message):
         markup.add(btn_my_site2)
         bot.send_message(message.chat.id, "Натистни на кнопку та перейди на наш сайт.", reply_markup=markup)
 
-# умова вибору кнопки UPlay без ссилок
+# умова вибору кнопки Кнопка 2 без ссилок
     elif (message.text == "Кнопка 2"):
         markup = types.InlineKeyboardMarkup()
         bot.send_message(message.chat.id, "Ви отримали простий текст без силки", reply_markup=markup)
 
-# умова вибору кнопки Origin
+# умова вибору кнопки Кнопка 3
     elif (message.text == "Кнопка 3"):
         markup = types.InlineKeyboardMarkup()
         btn_my_site = types.InlineKeyboardButton(text='Силка Кнопка 3', url='https://aparat.ua')
