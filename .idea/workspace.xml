@@ -18,6 +18,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="Git.Stage.Ui.Settings">
+    <option name="ignoredFilesShown" value="true" />
+  </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -61,8 +64,6 @@
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
       "repository"
     ]
   }
@@ -107,7 +108,31 @@
       <option name="project" value="LOCAL" />
       <updated>1707490587907</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add file">
+      <option name="closed" value="true" />
+      <created>1707496004915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707496004915</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add file main3.py">
+      <option name="closed" value="true" />
+      <created>1707496163480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707496163480</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add file main.py">
+      <option name="closed" value="true" />
+      <created>1707496234819</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707496234820</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +149,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="add file" />
+    <MESSAGE value="add file main3.py" />
+    <MESSAGE value="add file main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file main.py" />
   </component>
 </project>
