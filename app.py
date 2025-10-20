@@ -26,7 +26,7 @@ def catalogKBoard(message):
         bot.send_message(message.chat.id, "Вибиріть категорію", reply_markup=catalogKBoard)
 
 # умова вибору кнопки Інформація
-    git elif (message.text == "Інформація"):
+    elif (message.text == "Інформація"):
         markup = types.InlineKeyboardMarkup()
         bot.send_message(message.chat.id, "Тут ваша інформація вся", reply_markup=markup)
 
