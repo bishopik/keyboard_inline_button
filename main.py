@@ -2,7 +2,6 @@ import telebot
 from telebot import types
 
 bot = telebot.TeleBot('1834841635:AAFVYR_uyCTmqkVjoFFRQwsTBcafT4zMiPY')
-
 @bot.message_handler(commands=['start'])
 def start(message):
 
@@ -10,6 +9,7 @@ def start(message):
     btn1 = types.KeyboardButton("👋 Привітання")
     markup.add(btn1)
     bot.send_message(message.from_user.id, "👋 Привіт! Я твій бот-помічник!", reply_markup=markup)
+
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
